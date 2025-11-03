@@ -84,4 +84,4 @@ outputs = model.generate(**inputs, max_new_tokens=400)
 print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ```
 
-Chat Logs: <https://chatgpt.com/c/68078c16-3d04-8004-8e29-0fcda16f8c50>
+Chat Logs: [https://chatgpt.com/c/68078c16-3d04-8004-8e29-0fcda16f8c50](https://chatgpt.com/share/6908d6d6-dcc4-8010-8d67-872640c3778d)

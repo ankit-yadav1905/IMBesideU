@@ -55,6 +55,18 @@ Outputs are formatted into **LaTeX-rendered PDFs** for clean and professional re
 
 ---
 
+# Files 
+
+- `content/model_summarizer.ipynb` — Notebook implementing the summarization pipeline and model inference examples.
+- `content/pdf_reader.ipynb` — Notebook for extracting and preprocessing text from PDFs.
+- `content/train.jsonl` — Original training dataset (JSON Lines) used for fine-tuning the model.
+- `content/train_reformat.jsonl` — Reformatted training dataset (JSON Lines) prepared for model training.
+
+Sample files (examples used with the agent):
+- `content/report.pdf` — Sample PDF used as input to the model for summarization (input example).
+- `content/summarized_report.pdf` — Example output produced by the agent after summarizing `report.pdf` (output example).
+- `content/ImBesideU.pdf` — The Data Science Report for this project.
+
 ## 📊 Evaluation
 
 ### **Qualitative Results**

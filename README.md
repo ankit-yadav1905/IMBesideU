@@ -82,3 +82,6 @@ prompt = "Summarize the following academic text..."
 inputs = tokenizer(prompt, return_tensors="pt")
 outputs = model.generate(**inputs, max_new_tokens=400)
 print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+```
+
+Chat Logs: <https://chatgpt.com/c/68078c16-3d04-8004-8e29-0fcda16f8c50>
